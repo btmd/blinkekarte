@@ -31,6 +31,7 @@ struct Lights {
 
 static Lights LightsArray[] = {
 
+// Blinking Lights for Antigua (BA2046)
 //  //  Name                NrInRow  Color        identif.    curr_index,  startupDelay (must not be 0)
   {"Iso.G",     0,  CRGB::Green,  {1000, 1000}, 0,  random16(10, 4000)},
   {"FL.R.4s",   1,  CRGB::Red,    {800, 3200}, 0,  100},
@@ -44,6 +45,7 @@ static Lights LightsArray[] = {
   {"Iso.R",     9,  CRGB::Red,    {3000, 3000}, 0,  100},
   {"Iso.R",     10, CRGB::Red,    {3000, 3000}, 0,  100},
   {"Q",         11, CRGB::White,  {700, 1000}, 0,  random16(10, 4000)}
+// Blinking lights for Helgoland (D1311)
 //  {"ODAS",                  0,  CRGB::Yellow, {1000, 1500, 1000, 1500, 1000, 1500, 1000, 1500, 1000, 9000}, 0,  random16(10, 4000)},
 //  {"Helgoland-O",           1,  CRGB::White,  {1000, 200,  1000, 200, 1000, 6600}, 0, random16(10, 4000)},
 //  {"Duene-S",               2,  CRGB::White,  {900,  200,  900,  200, 900,  200,  900,  200,  900,  200,  900,  200, 2000, 6400}, 0, random16(10, 4000)},
