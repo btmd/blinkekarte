@@ -7,6 +7,7 @@
 //#define CLK_PIN 14
 #define LED_PIN 1
 #define COLOR_ORDER GRB
+// you need to define the right LED strip here or you run into the weirdest things
 #define LED_TYPE    WS2812 //APA102//SK6812 - WS2812
 #define NUM_LEDS    12
 
