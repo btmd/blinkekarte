@@ -22,5 +22,5 @@ load into arduino ide, load onto your ESP, wire the strip check the patterns
 
 
 # TODO
-* Support a gazilion LEDs (see Port of Hamburg issue)
+* Support a gazilion LEDs (see Port of Hamburg issue #1)
 
